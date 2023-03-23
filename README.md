@@ -28,13 +28,26 @@ For details on setup and data capture, please refer to the Wiki(link)
 
 # Getting started
 
+- Capture datasets with both sensors placing the calibration target ideally in 6 different positions
+- Store RADAR and camera data in individual folders on the host PC
 - Install MATLAB (r2015b or later)
 - Download the matlab scripts provided
-- Store RADAR and camera data in indiviual folders
 - Open and run ext_cal_v2.m in MATLAB
 - Select the respective data folders when prompted
 - Output including the calibrated data and extrinsic parameters will be provided
 
+## Example data
+
+Please refer to folders Image Raw Data and Radar PCD containing exaample datasets for calibration.
+
+# Important Information
+
+- Calibration software is in the Alpha stage where the performance is inconsistent
+- Image detection of calibration target is not robust, possibly due to exposure and resolution 
+- The RADAR used was a evaluation prototype board leading to inaccuratre and inconsistent data capture
 
 
-asd-engd-project-2022-extrinsic-sensor-calibration created by GitHub Classroom
+
+
+
+
