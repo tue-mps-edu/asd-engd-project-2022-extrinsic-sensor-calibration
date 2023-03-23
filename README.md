@@ -1,6 +1,8 @@
-# ASD-EngD-project-2022-Extrinsic-Sensor-Calibration
+<img src="https://user-images.githubusercontent.com/120169307/227249076-fa0c9a73-4318-47cb-8e02-878f06ff1f65.png" align="right" width="35%" height="35%">
 
-This repository shares the software tool and documentation for the extrinsic calibration of an Imaging RADAR and mono camera.         (TUE LOGO RIGHT CORNER)
+# Extrinsic Sensor Calibration <br> ASD EngD 2022
+
+This repository shares the software tool and documentation for the extrinsic calibration of an Imaging RADAR and mono camera.      
 
 Intro IMAGE
 
@@ -15,21 +17,23 @@ Intro IMAGE
 
 The extrinsic calibration tool is capable of calculating the extrinsic parameters of a 3+1D RADAR and camera by processing the point cloud and image datasets of a calibration target.
 
-Photo of PCD and camera data
+| PCD | Overlay |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/120169307/227243078-74372771-6868-48c0-9461-ff7d4e260391.png" width="95%" height="95%"> | <img src="https://user-images.githubusercontent.com/120169307/227238761-bfcce5bd-f5f0-4d92-973a-65dea2c17033.png" width="70%" height="70%"> |
 
 ## Sensors and data
 
 ### Sensors
 
-- a MMWCAS-RF-EVM + MMWCAS-DSP-EVM 3+1D RADAR (Add links)
-- a Basler dart daA1600-60uc camera (1600 x 1200)
+- a [MMWCAS-RF-EVM](https://www.ti.com/tool/MMWCAS-RF-EVM) + [MMWCAS-DSP-EVM](https://www.ti.com/tool/MMWCAS-DSP-EVM) 3+1D RADAR
+- a [Basler dart daA1600-60uc](https://www.baslerweb.com/en/products/cameras/area-scan-cameras/dart/daa1600-60uc-s-mount/) camera (1600 x 1200)
 
 ### Data
 
 - Radar data was captured using the mmWavestudio package from TI, processed using the provided MATLAB scripts and saved as FIG files.
 - Camera data was captured using the Pylon package from Basler and stored as JPG files.
 
-For details on setup and data capture, please refer to the Wiki(link)
+For details on setup and data capture, please refer to the [Wiki](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/wiki/2.-Sensor-setup-and-data-capture)
 
 ## User instructions
 
@@ -43,7 +47,7 @@ For details on setup and data capture, please refer to the Wiki(link)
 
 ## Example data
 
-Please refer to folders Image Raw Data and Radar PCD containing exaample datasets for calibration.
+Please refer to folders [Image Raw Data](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/tree/main/Image%20Raw%20Data) and [Radar PCD](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/tree/main/Radar%20PCD) containing exaample datasets for calibration.
 
 ## Important Information
 
