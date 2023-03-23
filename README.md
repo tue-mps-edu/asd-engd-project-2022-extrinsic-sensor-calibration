@@ -41,7 +41,7 @@ For details on setup and data capture, please refer to the [Wiki](https://github
 - Download the matlab scripts provided
 - Open and run ext_cal_v2.m in MATLAB
 - Select the respective data folders when prompted
-- Calibration tool ouputs the calibrated data and extrinsic parameters
+- Calibration tool outputs the calibrated data and saves extrinsic parameters in the code directory.
 
 ## Example data
 
@@ -50,7 +50,7 @@ Please refer to folders [Image_Example_Data](https://github.com/tue-mps-edu/asd-
 ## Important Information
 
 - The tool was developed and tested on Windows 10, compatibility with other OS's has not been explored
-- Calibration software is in the Alpha stage where the performance is inconsistent
+- Calibration software is in the Alpha stage where the performance is inconsistent. It is recommended to run the tool a few times until a good mapping between radar and image data is obtained.
 - Image detection of calibration target is not robust, possibly due to exposure and resolution 
 - The RADAR used was a evaluation prototype board leading to inaccuratre and inconsistent data capture
 
