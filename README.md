@@ -2,9 +2,7 @@
 
 # Extrinsic Sensor Calibration <br> ASD EngD 2022
 
-This repository shares the software tool and documentation for the extrinsic calibration of an Imaging RADAR and mono camera.      
-
-Intro IMAGE
+This repository shares the software tool and documentation for the extrinsic calibration of an Imaging RADAR and mono camera.
 
 ## Overview
 - [Info](#info)
