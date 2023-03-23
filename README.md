@@ -5,6 +5,11 @@ This repository shares the software tool and documentation for the extrinsic cal
 Intro IMAGE
 
 ## Overview
+- [Info](#info)
+- [Sensors and data](#sensors-and-data)
+- [Getting started](#getting-started)
+- [Example data](#example-data)
+- [Important information](#important-information)
 
 ## Info
 
@@ -12,21 +17,21 @@ The extrinsic calibration tool is capable of calculating the extrinsic parameter
 
 Photo of PCD and camera data
 
-# Sensors and data
+## Sensors and data
 
-## Sensors
+### Sensors
 
 - a MMWCAS-RF-EVM + MMWCAS-DSP-EVM 3+1D RADAR (Add links)
 - a Basler dart daA1600-60uc camera (1600 x 1200)
 
-## Data
+### Data
 
 - Radar data was captured using the mmWavestudio package from TI, processed using the provided MATLAB scripts and saved as FIG files.
 - Camera data was captured using the Pylon package from Basler and stored as JPG files.
 
 For details on setup and data capture, please refer to the Wiki(link)
 
-# Getting started
+## Getting started
 
 - Capture datasets with both sensors placing the calibration target ideally in 6 different positions
 - Store RADAR and camera data in individual folders on the host PC
@@ -40,7 +45,7 @@ For details on setup and data capture, please refer to the Wiki(link)
 
 Please refer to folders Image Raw Data and Radar PCD containing exaample datasets for calibration.
 
-# Important Information
+## Important Information
 
 - Calibration software is in the Alpha stage where the performance is inconsistent
 - Image detection of calibration target is not robust, possibly due to exposure and resolution 
