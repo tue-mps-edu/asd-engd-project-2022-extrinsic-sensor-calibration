@@ -7,7 +7,7 @@ Intro IMAGE
 ## Overview
 - [Info](#info)
 - [Sensors and data](#sensors-and-data)
-- [Getting started](#getting-started)
+- [User instructions](#user-instructions)
 - [Example data](#example-data)
 - [Important information](#important-information)
 
@@ -31,7 +31,7 @@ Photo of PCD and camera data
 
 For details on setup and data capture, please refer to the Wiki(link)
 
-## Getting started
+## User instructions
 
 - Capture datasets with both sensors placing the calibration target ideally in 6 different positions
 - Store RADAR and camera data in individual folders on the host PC
@@ -39,7 +39,7 @@ For details on setup and data capture, please refer to the Wiki(link)
 - Download the matlab scripts provided
 - Open and run ext_cal_v2.m in MATLAB
 - Select the respective data folders when prompted
-- Output including the calibrated data and extrinsic parameters will be provided
+- Calibration tool ouputs the calibrated data and extrinsic parameters
 
 ## Example data
 
