@@ -47,6 +47,7 @@ Please refer to folders Image Raw Data and Radar PCD containing exaample dataset
 
 ## Important Information
 
+- The tool was developed and tested on Windows 10, compatibility with other OS's has not been explored
 - Calibration software is in the Alpha stage where the performance is inconsistent
 - Image detection of calibration target is not robust, possibly due to exposure and resolution 
 - The RADAR used was a evaluation prototype board leading to inaccuratre and inconsistent data capture
