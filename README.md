@@ -39,7 +39,7 @@ For details on setup and data capture, please refer to the [Wiki](https://github
 - Store RADAR and camera data in individual folders on the host PC
 - Install MATLAB (r2015b or later)
 - Download the matlab scripts provided
-- Open and run ext_cal_v2.m in MATLAB
+- Open and run [ext_cal_v2.m](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/blob/main/Extrinsic_Calibration_Tool_MATLAB/ext_cal_v2.m) in MATLAB
 - Select the respective data folders when prompted
 - Calibration tool outputs the calibrated data and saves extrinsic parameters in the code directory.
 
