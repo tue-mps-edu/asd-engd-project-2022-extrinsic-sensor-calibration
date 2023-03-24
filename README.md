@@ -2,6 +2,8 @@
 
 # Extrinsic Sensor Calibration <br> ASD EngD 2022
 
+<p align="justify">
+
 This repository contains the software tool and documentation for the extrinsic calibration of a TI Imaging RADAR and mono camera.
 
 ## Overview
@@ -28,8 +30,8 @@ The extrinsic calibration tool is capable of calculating the extrinsic parameter
 
 ### Data
 
-- Radar data was captured using the mmWavestudio package from TI, processed using the provided MATLAB scripts and saved as FIG files.
-- Camera data was captured using the Pylon package from Basler and stored as JPG files.
+- Radar data was captured using the mmWavestudio package from TI, processed using the provided MATLAB scripts and saved as _.fig_ files.
+- Camera data was captured using the Pylon package from Basler and stored as _.jpg_ files.
 
 For details on setup and data capture, please refer to the [Wiki](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/wiki/2.-Sensor-setup-and-data-capture)
 
@@ -54,8 +56,4 @@ Please refer to folders [Image_Example_Data](https://github.com/tue-mps-edu/asd-
 - Image detection of calibration target is not robust, possibly due to exposure and resolution 
 - The RADAR used was a evaluation prototype board leading to inaccuratre and inconsistent data capture
 
-
-
-
-
-
+</p>
