@@ -1,16 +1,16 @@
-function F = calib_opt_err(yc, yr, x)
+function F = calib_opt_err_v2(yc, yr, x, int_cam)
 
 % foc = int_cam(1);
-% dx = int_cam(2);
-% dy = int_cam(3);
+dx = int_cam(2);
+dy = int_cam(3);
 % u0 = int_cam(5);
 % v0 = int_cam(4);
 
 % foc = 2.95e-3;
 % u0 = 600;
 % v0 = 800;
-dx = 4.5e-6;
-dy = 4.5e-6;
+% dx = 4.5e-6;
+% dy = 4.5e-6;
 
 ci = [x(7) 0 0 0; 0 x(7) 0 0; 0 0 1 0];
 f = 0;

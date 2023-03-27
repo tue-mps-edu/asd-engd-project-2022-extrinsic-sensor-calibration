@@ -6,6 +6,8 @@ fprintf('Please select the directory of captured radar data\n');  % get the dire
 myFolder = uigetdir;    
 DataFiles = dir(fullfile(myFolder, '*.fig'));
 
+fprintf('Processing Radar Point Cloud Data....\n');
+
 for i = 1:length(DataFiles)   %extracts point cloud data from matlab figures
     str = fullfile(myFolder, DataFiles(i).name);
     fig = openfig(str,'invisible');
@@ -42,19 +44,9 @@ for i = 1:length(DataFiles)    %find the cluster of points representing the cali
     end
 end
 
-% for i = 1:length(DataFiles)
-%     subplot(2,2,i);
-%     scatter3(PCD.(str2)(idx==1,1), PCD.(str2)(idx==1,2), PCD.(str2)(idx==1,3))
-%     hold on
-%     scatter3(PCD.(str2)(idx==2,1), PCD.(str2)(idx==2,2), PCD.(str2)(idx==2,3))
-%     scatter3(C(:,1), C(:,2), C(:,3),'kx')
-%     hold off
-%     xlabel("x-axis");
-%     ylabel("y-axis");
-%     zlabel("z-axis");    
-% end
-
 Yr = Yr';
+
+fprintf('PCD Processing Complete\n');
 
 end
 
