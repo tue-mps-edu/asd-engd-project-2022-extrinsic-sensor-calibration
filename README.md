@@ -47,7 +47,7 @@ For details on setup and data capture, please refer to the [Wiki](https://github
 
 ## Example data
 
-Please refer to folders [Image_Example_Data](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/tree/main/Image_Example_Data) and [Radar_PCD_Example_Data](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/tree/main/Radar_PCD_example_data) containing exaample datasets for calibration.
+Please refer to folders [Image_Example_Data](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/tree/main/Image_Example_Data) and [Radar_PCD_Example_Data](https://github.com/tue-mps-edu/asd-engd-project-2022-extrinsic-sensor-calibration/tree/main/Radar_PCD_example_data) containing example datasets for calibration.
 
 ## Important Information
 
